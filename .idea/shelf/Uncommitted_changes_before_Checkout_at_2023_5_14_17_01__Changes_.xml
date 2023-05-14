@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2023_5_14_17_01_[Changes]" date="1684054868269" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_5_14_17_01_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2023/5/14 17:01 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="mq-demo/publisher/target/classes/cn/itcast/mq/PublisherApplication.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="mq-demo/publisher/target/test-classes/cn/itcast/mq/spring/SpringAmqpTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="mq-demo/publisher/target/test-classes/cn/itcast/mq/helloworld/PublisherTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
