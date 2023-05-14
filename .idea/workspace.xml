@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="fanoutQueue">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/cn/itcast/mq/listener/SpringRabbitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/cn/itcast/mq/listener/SpringRabbitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-demo/publisher/src/test/java/cn/itcast/mq/spring/SpringAmqpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/publisher/src/test/java/cn/itcast/mq/spring/SpringAmqpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/cn/itcast/mq/spring/SpringAmqpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/publisher/target/test-classes/cn/itcast/mq/spring/SpringAmqpTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
