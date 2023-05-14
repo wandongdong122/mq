@@ -1,0 +1,105 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"33efcabd-4536-4e88-bb76-cf67e55bd954\" name=\"Changes\" comment=\"RabbitMQ&amp;springAmqp\">\r\n      <change afterPath=\"$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"D:/Develop/Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Develop\\Maven\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"jreName\" value=\"11\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PlzC0cFev0K47OSrPrcbDOIJj6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RequestMappingsPanelOrder0\" value=\"0\" />\r\n    <property name=\"RequestMappingsPanelOrder1\" value=\"1\" />\r\n    <property name=\"RequestMappingsPanelWidth0\" value=\"75\" />\r\n    <property name=\"RequestMappingsPanelWidth1\" value=\"75\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.32510886\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"cn.itcast.mq\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.ConsumerApplication\">\r\n    <configuration name=\"ConsumerTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cn.itcast.mq.helloworld.ConsumerTest\" />\r\n      <module name=\"consumer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.itcast.mq.helloworld.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"PublisherTest.testSendMessage\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"publisher\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.itcast.mq.helloworld.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"cn.itcast.mq.helloworld\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cn.itcast.mq.helloworld.PublisherTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testSendMessage\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SpringAmqpTest.testSendMessage2SimpleQueue\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"publisher\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.itcast.mq.spring.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"cn.itcast.mq.spring\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cn.itcast.mq.spring.SpringAmqpTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testSendMessage2SimpleQueue\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ConsumerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"consumer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.itcast.mq.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"cn.itcast.mq.ConsumerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Spring Boot.ConsumerApplication\" />\r\n        <item itemvalue=\"JUnit.SpringAmqpTest.testSendMessage2SimpleQueue\" />\r\n        <item itemvalue=\"JUnit.PublisherTest.testSendMessage\" />\r\n        <item itemvalue=\"Application.ConsumerTest\" />\r\n        <item itemvalue=\"Spring Boot.ConsumerApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"33efcabd-4536-4e88-bb76-cf67e55bd954\" name=\"Changes\" comment=\"\" />\r\n      <created>1684046325170</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1684046325170</updated>\r\n      <workItem from=\"1684046326459\" duration=\"5389000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"RabbitMQ&amp;springAmqp\">\r\n      <created>1684051337493</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684051337493</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"RabbitMQ&amp;springAmqp\">\r\n      <created>1684051428467</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684051428467</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"RabbitMQ&amp;springAmqp\">\r\n      <created>1684051607670</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1684051607670</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"RabbitMQ&amp;springAmqp\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"RabbitMQ&amp;springAmqp\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/mq-demo/consumer/src/test/java/cn/itcast/mq/helloworld/ConsumerTest.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 645797f4baabb42dafc72fee29fe3e173c109dab)
++++ b/.idea/workspace.xml	(date 1684053704214)
+@@ -5,10 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="RabbitMQ&amp;springAmqp">
+-      <change afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,7 +23,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="WorkQueue" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -55,7 +53,7 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Project" />
++    <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.32510886" />
+     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+@@ -142,7 +140,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1684046325170</updated>
+-      <workItem from="1684046326459" duration="5389000" />
++      <workItem from="1684046326459" duration="5944000" />
+     </task>
+     <task id="LOCAL-00001" summary="RabbitMQ&amp;springAmqp">
+       <created>1684051337493</created>
+@@ -165,7 +163,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1684051607670</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="RabbitMQ&amp;springAmqp">
++      <created>1684053172230</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1684053172230</updated>
++    </task>
++    <task id="LOCAL-00005" summary="RabbitMQ&amp;springAmqp">
++      <created>1684053209751</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1684053209751</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -176,7 +188,13 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="false" />
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+Index: mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.itcast.mq.listener;\r\n\r\nimport org.springframework.amqp.rabbit.annotation.RabbitListener;\r\nimport org.springframework.stereotype.Component;\r\n\r\n@Component\r\npublic class SpringRabbitListener {\r\n\r\n    @RabbitListener(queues = \"simple.queue\")\r\n    private void listenSimpleQueue(String msg){\r\n        System.out.println(\"消费者接收到simple.queue的消息：【\"+ msg +\"】\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java b/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java
+--- a/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java	(revision 645797f4baabb42dafc72fee29fe3e173c109dab)
++++ b/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java	(date 1684053283144)
+@@ -5,7 +5,6 @@
+ 
+ @Component
+ public class SpringRabbitListener {
+-
+     @RabbitListener(queues = "simple.queue")
+     private void listenSimpleQueue(String msg){
+         System.out.println("消费者接收到simple.queue的消息：【"+ msg +"】");
