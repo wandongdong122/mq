@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="RabbitMQ&amp;springAmqp">
-      <change afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="WorkQueue" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32510886" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -142,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684046325170</updated>
-      <workItem from="1684046326459" duration="5389000" />
+      <workItem from="1684046326459" duration="6072000" />
     </task>
     <task id="LOCAL-00001" summary="RabbitMQ&amp;springAmqp">
       <created>1684051337493</created>
@@ -165,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684051607670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RabbitMQ&amp;springAmqp">
+      <created>1684053172230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684053172230</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RabbitMQ&amp;springAmqp">
+      <created>1684053209751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684053209751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +188,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
