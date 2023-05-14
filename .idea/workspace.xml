@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="RabbitMQ&amp;springAmqp" />
+    <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="RabbitMQ&amp;springAmqp">
+      <change afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -37,6 +47,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,7 +60,12 @@
     <property name="project.structure.side.proportion" value="0.32510886" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringAmqpTest.testSendMessage2SimpleQueue">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.itcast.mq" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.mq.helloworld.ConsumerTest" />
       <module name="consumer" />
@@ -92,11 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.mq.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="JUnit.SpringAmqpTest.testSendMessage2SimpleQueue" />
-        <item itemvalue="Application.ConsumerTest" />
         <item itemvalue="JUnit.PublisherTest.testSendMessage" />
+        <item itemvalue="Application.ConsumerTest" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684046325170</updated>
-      <workItem from="1684046326459" duration="3847000" />
+      <workItem from="1684046326459" duration="5389000" />
     </task>
     <task id="LOCAL-00001" summary="RabbitMQ&amp;springAmqp">
       <created>1684051337493</created>
@@ -124,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684051428467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RabbitMQ&amp;springAmqp">
+      <created>1684051607670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684051607670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
