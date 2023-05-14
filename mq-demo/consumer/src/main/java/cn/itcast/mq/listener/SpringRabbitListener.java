@@ -8,13 +8,13 @@ import java.time.LocalDateTime;
 @Component
 public class SpringRabbitListener {
 
-    @RabbitListener(queues = "simple_queue")
+    @RabbitListener(queues = "simple.queue")
     public void listenWorkQueue1(String msg) throws InterruptedException {
         System.out.println("消费者1接收到消息：【" + msg + "】"+ LocalDateTime.now());
         Thread.sleep(20);
     }
 
-    @RabbitListener(queues = "simple_queue")
+    @RabbitListener(queues = "simple.queue")
     public void listenWorkQueue2(String msg) throws InterruptedException {
         System.err.println("消费者2接收到消息：【" + msg + "】"+LocalDateTime.now());
         Thread.sleep(200);
