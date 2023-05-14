@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="RabbitMQ&amp;springAmqp">
-      <change afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/config/FanoutConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_5_14_16_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_5_14_16_43__Changes_.xml" afterDir="false" />
+    <list default="true" id="33efcabd-4536-4e88-bb76-cf67e55bd954" name="Changes" comment="fanoutQueue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/src/main/java/cn/itcast/mq/listener/SpringRabbitListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mq-demo/consumer/target/classes/cn/itcast/mq/listener/SpringRabbitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-demo/consumer/target/classes/cn/itcast/mq/listener/SpringRabbitListener.class" afterDir="false" />
@@ -28,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="FanoutExchange" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringAmqpTest.testSendMessage2Exchange" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="JUnit.SpringAmqpTest.testSendMessage2SimpleQueue" />
+        <item itemvalue="JUnit.SpringAmqpTest.testSendMessage2Exchange" />
         <item itemvalue="JUnit.PublisherTest.testSendMessage" />
         <item itemvalue="Application.ConsumerTest" />
       </list>
@@ -198,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684053209751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fanoutQueue">
+      <created>1684064275135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684064275135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RabbitMQ&amp;springAmqp" />
-    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ&amp;springAmqp" />
+    <MESSAGE value="fanoutQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fanoutQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
